@@ -27,6 +27,10 @@
  *
  */
 
+#ifndef LIBNET_API
+#define LIBNET_API
+#endif
+
 #if (_WIN32) || (__CYGWIN__)
 
 /* MSVC warns about snprintf */
@@ -55,4 +59,5 @@
 
 #include "../include/config.h"
 #include "../include/libnet.h"
+
 
